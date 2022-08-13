@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: [
     "vuetify"
   ],
-  publicPath: "/2d_rocket_sim_2/"
+  publicPath: "/2d-rocket-simulation/"
 });
