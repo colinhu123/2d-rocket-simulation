@@ -16,6 +16,10 @@ User can use this project to estimate the orbit of a rocket or a satllite and pr
 
 Moreover, this repository specially choose to decide the run loop times for each frames, eliminating some errors which may appear randomly.
 
+<img src="resources/shot.png" alt ='shot' width='400'/>
+
+The blue sphere represents the Earth and the cone represents the rocket. The red point at the end of cone means that the rocket is thrusting. White line means the orbit of the rocket.
+
 ### Programming Language and Frame
 This project uses JavaScript and the library vue as frame.
 
