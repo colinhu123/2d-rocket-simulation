@@ -4,6 +4,7 @@
 - About the Project
 - Block Diagram
 - Live Demo
+- video Demo
 - Project Setup
 - Expansion
 - Customize configuration
@@ -16,9 +17,16 @@ User can use this project to estimate the orbit of a rocket or a satllite and pr
 
 Moreover, this repository specially choose to decide the run loop times for each frames, eliminating some errors which may appear randomly.
 
+### Panel Illustration
 <img src="resources/shot.png" alt ='shot' width='400'/>
 
-The blue sphere represents the Earth and the cone represents the rocket. The red point at the end of cone means that the rocket is thrusting. White line means the orbit of the rocket.
+The upper part is control panel, including time line, bittons to control start, pause and stop. The main window is the simulation output. The blue sphere represents the Earth and the cone represents the rocket. The red point at the end of cone means that the rocket is thrusting. White line means the orbit of the rocket. User can use mouse wheel to adjust the scaler to have a detailed look of orbit. The right part is the intial condition set up pannel. First is the Earth, whose parameter cannot be changed. The following windows are differnet stages of rockets and remaining. There is also the other pannel to choose the preset data including a test rocket and CZ-5. User can click the download button and the data will be downloaded to the first pannel.
+
+As the time goes on, if the rocket has entered orbit, the number of white dots on canvas will be limited to one thousand in order to reduce the burden of computer. As a result, the linne will break up at the point where rocket's upper stage seperates from paylodad.
+
+<img src='resources/line_break.png' alt = 'line_break' width = '200'>
+
+In the picture, second stage and sattlite both entered the same orbit with the samee angular velocity so that user cannot see the second stage seperate from orbit and go into another different orbit.
 
 ### Programming Language and Frame
 This project uses JavaScript and the library vue as frame.
@@ -46,6 +54,9 @@ This project mainly have two parts: several class designed for visualize and sol
 
 ## Live Demo
 [Live Demo](https://colinhu123.github.io/2d-rocket-simulation/)
+
+## Video Demo
+[Video Link](https://youtu.be/GX0-JfYEXuI)
 
 ## Project setup
 
