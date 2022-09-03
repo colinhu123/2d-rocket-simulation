@@ -26,7 +26,7 @@ As the time goes on, if the rocket has entered orbit, the number of white dots o
 
 <img src='resources/line_break.png' alt = 'line_break' width = '200'>
 
-In the picture, second stage and sattlite both entered the same orbit with the samee angular velocity so that user cannot see the second stage seperate from orbit and go into another different orbit.
+In the picture, second stage and sattlite both entered the same orbit with the samee angular velocity so that user cannot see the second stage seperate from orbit and go into another different orbit. Two curves above are the orbits of boosters and first core stage.
 
 ### Programming Language and Frame
 This project uses JavaScript and the library vue as frame.
